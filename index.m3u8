@@ -1,0 +1,17 @@
+	
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=346000,RESOLUTION=384x216	
+https://live.video.globo.com/d/s/hls-pfc124ha_346/playlist.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=554000,RESOLUTION=512x288	
+https://live.video.globo.com/d/s/hls-pfc124ha_554/playlist.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1151000,RESOLUTION=640x360	
+https://live.video.globo.com/d/s/hls-pfc124ha_1151/playlist.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1842000,RESOLUTION=768x432	
+https://live.video.globo.com/d/s/hls-pfc124ha_1842/playlist.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2764000,RESOLUTION=1280x720	
+https://live.video.globo.com/d/s/hls-pfc124ha_2764/playlist.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3869000,RESOLUTION=1280x720	
+https://live.video.globo.com/d/s/hls-pfc124ha_3869/playlist.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5803000,RESOLUTION=1280x720	
+https://live.video.globo.com/d/s/hls-pfc124ha_5803/playlist.m3u8
