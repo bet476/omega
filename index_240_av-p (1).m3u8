@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:10
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:159492176
+#EXTINF:10.000,
+https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/segment159492176_240_av-p.ts?sd=10&rebase=on
+#EXTINF:10.000,
+https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/segment159492177_240_av-p.ts?sd=10&rebase=on
+#EXTINF:10.000,
+https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/segment159492178_240_av-p.ts?sd=10&rebase=on
