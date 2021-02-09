@@ -1,0 +1,34 @@
+#EXTM3U
+#EXT-X-VERSION:5
+## Created with Unified Streaming Platform(version=1.9.5)
+#EXT-X-SESSION-KEY:METHOD=SAMPLE-AES,URI="skd://fairplay.entitlement.theplatform.eu/fpls/web/FairPlay",KEYFORMAT="com.apple.streamingkeydelivery",KEYFORMATVERSIONS="1"
+
+# AUDIO groups
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-aacl-64",NAME="English",LANGUAGE="en",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-audio_selector_eng_0_64000_stre=64000.m3u8?outlet=dazn-latin"
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=407000,AVERAGE-BANDWIDTH=370000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=480x270,FRAME-RATE=25,AUDIO="audio-aacl-64",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=288000.m3u8?outlet=dazn-latin
+#EXT-X-STREAM-INF:BANDWIDTH=631000,AVERAGE-BANDWIDTH=574000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=640x360,FRAME-RATE=25,AUDIO="audio-aacl-64",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=480000.m3u8?outlet=dazn-latin
+#EXT-X-STREAM-INF:BANDWIDTH=1051000,AVERAGE-BANDWIDTH=956000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=960x540,FRAME-RATE=25,AUDIO="audio-aacl-64",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=840000.m3u8?outlet=dazn-latin
+#EXT-X-STREAM-INF:BANDWIDTH=1821000,AVERAGE-BANDWIDTH=1655000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=960x540,FRAME-RATE=25,AUDIO="audio-aacl-64",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=1499968.m3u8?outlet=dazn-latin
+
+# AUDIO groups
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-aacl-128",NAME="English",LANGUAGE="en",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-audio_selector_eng_0_128000_str=128000.m3u8?outlet=dazn-latin"
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=3641000,AVERAGE-BANDWIDTH=3310000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=1280x720,FRAME-RATE=25,AUDIO="audio-aacl-128",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=3000000.m3u8?outlet=dazn-latin
+#EXT-X-STREAM-INF:BANDWIDTH=5273000,AVERAGE-BANDWIDTH=4794000,CODECS="mp4a.40.2,avc1.640020",RESOLUTION=1280x720,FRAME-RATE=50,AUDIO="audio-aacl-128",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=4400000.m3u8?outlet=dazn-latin
+#EXT-X-STREAM-INF:BANDWIDTH=7722000,AVERAGE-BANDWIDTH=7020000,CODECS="mp4a.40.2,avc1.640020",RESOLUTION=1280x720,FRAME-RATE=50,AUDIO="audio-aacl-128",CLOSED-CAPTIONS=NONE
+https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/avc_hls_global-video=6499968.m3u8?outlet=dazn-latin
+
+# keyframes
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=42000,CODECS="avc1.4D401F",RESOLUTION=480x270,URI="https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/keyframes/avc_hls_global-video=288000.m3u8?outlet=dazn-latin"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=70000,CODECS="avc1.4D401F",RESOLUTION=640x360,URI="https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/keyframes/avc_hls_global-video=480000.m3u8?outlet=dazn-latin"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=123000,CODECS="avc1.4D401F",RESOLUTION=960x540,URI="https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/keyframes/avc_hls_global-video=840000.m3u8?outlet=dazn-latin"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=438000,CODECS="avc1.4D401F",RESOLUTION=1280x720,URI="https://dcb-livedash-perform.secure.footprint.net/1d5663pq10z381agzlticteay2/all/keyframes/avc_hls_global-video=3000000.m3u8?outlet=dazn-latin"
