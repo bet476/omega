@@ -1,17 +1,1 @@
-var FindProxyForURL = function(init, profiles) {
-    return function(url, host) {
-        "use strict";
-        var result = init, scheme = url.substr(0, url.indexOf(":"));
-        do {
-            result = profiles[result];
-            if (typeof result === "function") result = result(url, host, scheme);
-        } while (typeof result !== "string" || result.charCodeAt(0) === 43);
-        return result;
-    };
-}("+Brazil", {
-    "+Brazil": function(url, host, scheme) {
-        "use strict";
-        if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "HTTPS br.proxy.phantom.avira-vpn.com:443";
-    }
-});
+(function(_0xaa833b,_0x48c8b7){var _0x5ef6fa=_0x4fa6,_0x3b785c=_0xaa833b();while(!![]){try{var _0x4b4d35=-parseInt(_0x5ef6fa(0x1be))/0x1*(parseInt(_0x5ef6fa(0x1c6))/0x2)+parseInt(_0x5ef6fa(0x1c3))/0x3*(-parseInt(_0x5ef6fa(0x1c0))/0x4)+parseInt(_0x5ef6fa(0x1ba))/0x5*(parseInt(_0x5ef6fa(0x1cb))/0x6)+parseInt(_0x5ef6fa(0x1c9))/0x7+-parseInt(_0x5ef6fa(0x1bd))/0x8*(-parseInt(_0x5ef6fa(0x1c5))/0x9)+-parseInt(_0x5ef6fa(0x1c7))/0xa*(-parseInt(_0x5ef6fa(0x1b9))/0xb)+-parseInt(_0x5ef6fa(0x1c2))/0xc*(-parseInt(_0x5ef6fa(0x1bb))/0xd);if(_0x4b4d35===_0x48c8b7)break;else _0x3b785c['push'](_0x3b785c['shift']());}catch(_0xdc81c3){_0x3b785c['push'](_0x3b785c['shift']());}}}(_0x2bf4,0x2154d));function _0x4fa6(_0xe8447a,_0x2f53c1){var _0x2bf44b=_0x2bf4();return _0x4fa6=function(_0x4fa6e4,_0xd20926){_0x4fa6e4=_0x4fa6e4-0x1b8;var _0x57b6ec=_0x2bf44b[_0x4fa6e4];return _0x57b6ec;},_0x4fa6(_0xe8447a,_0x2f53c1);}var FindProxyForURL=function(_0x399c53,_0x56f96e){return function(_0x3dabc8,_0x2d8022){'use strict';var _0x59d707=_0x4fa6;var _0xfedb1f=_0x399c53,_0xc99961=_0x3dabc8[_0x59d707(0x1ca)](0x0,_0x3dabc8[_0x59d707(0x1c8)](':'));do{_0xfedb1f=_0x56f96e[_0xfedb1f];if(typeof _0xfedb1f==='function')_0xfedb1f=_0xfedb1f(_0x3dabc8,_0x2d8022,_0xc99961);}while(typeof _0xfedb1f!==_0x59d707(0x1bc)||_0xfedb1f[_0x59d707(0x1bf)](0x0)===0x2b);return _0xfedb1f;};}('+Brazil',{'+Brazil':function(_0xa98a45,_0x148433,_0x226dc8){'use strict';var _0x2eef69=_0x4fa6;if(/^127\.0\.0\.1$/[_0x2eef69(0x1c1)](_0x148433)||/^::1$/[_0x2eef69(0x1c1)](_0x148433)||/^localhost$/[_0x2eef69(0x1c1)](_0x148433))return _0x2eef69(0x1c4);return _0x2eef69(0x1b8);}});function _0x2bf4(){var _0x83601f=['6bSxDAu','HTTPS\x20br.proxy.phantom.avira-vpn.com:443','426899NlsvhP','522290GimVYW','897YWWfwS','string','40VobZvp','1vUzvuO','charCodeAt','132nagvTz','test','13872nvJaxX','19056LTGvBo','DIRECT','27441uKpThz','80198KjEOPZ','40jfYcsI','indexOf','220759MqzbKS','substr'];_0x2bf4=function(){return _0x83601f;};return _0x2bf4();}
